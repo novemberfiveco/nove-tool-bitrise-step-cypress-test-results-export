@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.256" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-11-23T14:38:22" tests="0" file="cypress/tests/login.spec.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="login tests" timestamp="2022-11-23T14:38:22" tests="2" time="0.248" failures="1">
+    <testcase name="login tests &quot;before each&quot; hook for &quot;can navigate to login page from homepage&quot;" time="0.000" classname="&quot;before each&quot; hook for &quot;can navigate to login page from homepage&quot;">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://digi-0002-rebuild-staging.vercel.app/
+
+The response we received from your web server was:
+
+  &gt; 404: Not Found
+
+This was considered a failure because the status code was not `2xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `login tests`" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://digi-0002-rebuild-staging.vercel.app/
+
+The response we received from your web server was:
+
+  > 404: Not Found
+
+This was considered a failure because the status code was not `2xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `login tests`
+    at <unknown> (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:142324:84)
+    at visitFailedByErr (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:141629:12)
+    at <unknown> (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:142304:13)
+    at tryCatcher (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:11318:23)
+    at Promise._settlePromiseFromHandler (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:9253:31)
+    at Promise._settlePromise (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:9310:18)
+    at Promise._settlePromise0 (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:9355:10)
+    at Promise._settlePromises (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:9431:18)
+    at _drainQueueStep (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:6025:12)
+    at _drainQueue (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:6018:9)
+    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:6034:5)
+    at Async.drainQueues (https://digi-0002-rebuild-staging.vercel.app/__cypress/runner/cypress_runner.js:5904:14)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/tests/login.spec.js:12:11)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
